@@ -4,9 +4,9 @@ A Netflix clone built using React. It fetches the data from TMDB (The Movie Data
 
 ## Author
 
-[Muhammad Adnan](https://www.theadnan.vercel.app)
-[My LinkedIn Account](https://www.linkedin.com/in/theadnan)
-[My Facebook Account](https://www.facebook.com/adnan.joiya.muhammadi)
+My Name is [Muhammad Adnan](https://www.theadnan.vercel.app) & 
+[My LinkedIn Account](https://www.linkedin.com/in/theadnan) & 
+[My Facebook Account](https://www.facebook.com/adnan.joiya.muhammadi) & 
 [My YouTube Channel](https://www.youtube.com/@code_pirate)
 
 # Demo
