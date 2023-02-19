@@ -11,7 +11,7 @@ My Name is [Muhammad Adnan](https://www.theadnan.vercel.app) &
 
 # Demo
 
-The app is deployed using Firebase at [Netflix Clone Link](https://netflix-by-adnan.app/)
+The app is deployed using Firebase at [Netflix Clone Link](https://netflix-by-adnan.vercel.app/)
 
 ## Available Scripts
 

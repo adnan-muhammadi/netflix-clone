@@ -5,6 +5,7 @@ import "./Banner.css";
 
 function Banner() {
   const [movie, setMovie] = useState();
+  /* Fetching data from the API and setting the movie state to a random movie from the API. */
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(requests.fetchNetflixOriginals);
@@ -18,7 +19,16 @@ function Banner() {
     fetchData();
   }, []);
 
+  /**
+   * If the length of the string is greater than n, return a substring of the first n characters, plus
+   * an ellipsis. Otherwise, return the string
+   * @param str - the string to be truncated
+   * @param n - The number of characters to return.
+   * @returns the string if it is longer than n, and if it is not, it is returning the string.
+   */
   function truncate(str, n) {
+    /* This is a ternary operator. It is saying if the length of the string is greater than n, return a
+    substring of the first n characters, plus an ellipsis. Otherwise, return the string. */
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
 
